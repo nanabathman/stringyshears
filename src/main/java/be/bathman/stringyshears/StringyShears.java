@@ -28,8 +28,10 @@ public class StringyShears
     }
 
     @SubscribeEvent
-    public void onPlayerHarvest(BlockEvent.HarvestDropsEvent event) {
-        if (event.getHarvester() != null && event.getState().getBlock() == Blocks.WOOL && event.getHarvester().getHeldItemMainhand().getItem() == Items.SHEARS) {
+    public void onPlayerHarvest(BlockEvent.HarvestDropsEvent event) 
+	{
+        if (event.getHarvester() != null && event.getState().getBlock() == Blocks.WOOL && event.getHarvester().getHeldItemMainhand().getItem() == Items.SHEARS) 
+		{
             event.getDrops().remove(0);
             event.getDrops().add(new ItemStack(Items.STRING, rand.nextInt(4) + 2));
         }
