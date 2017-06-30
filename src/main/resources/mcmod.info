@@ -1,0 +1,16 @@
+[
+{
+  "modid": "stringyshears",
+  "name": "Stringy Shears",
+  "description": "Hold a shear in your main and subhand to receive string from wool.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/nanabathman",
+  "updateUrl": "",
+  "authorList": ["NaNa_BathMan"],
+  "credits": "https://github.com/nanabathman",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
